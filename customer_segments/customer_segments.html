@@ -13143,7 +13143,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[113]:</div>
+<div class="prompt input_prompt">In&nbsp;[141]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import libraries necessary for this project</span>
@@ -13201,7 +13201,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[114]:</div>
+<div class="prompt input_prompt">In&nbsp;[142]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display a description of the dataset</span>
@@ -13343,7 +13343,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[115]:</div>
+<div class="prompt input_prompt">In&nbsp;[143]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Select three indices of your choice you wish to sample from the dataset</span>
@@ -13448,7 +13448,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[116]:</div>
+<div class="prompt input_prompt">In&nbsp;[144]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">percentiles_data</span> <span class="o">=</span> <span class="mi">100</span><span class="o">*</span><span class="n">data</span><span class="o">.</span><span class="n">rank</span><span class="p">(</span><span class="n">pct</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -13534,7 +13534,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[117]:</div>
+<div class="prompt input_prompt">In&nbsp;[145]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="k">import</span> <span class="n">train_test_split</span>
@@ -13568,7 +13568,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[117]:</div>
+    <div class="prompt output_prompt">Out[145]:</div>
 
 
 
@@ -13585,7 +13585,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[118]:</div>
+<div class="prompt input_prompt">In&nbsp;[146]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Run regressor multiple times without random state to get a more stable result for R^2</span>
@@ -13610,13 +13610,13 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[118]:</div>
+    <div class="prompt output_prompt">Out[146]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.4025497646472539</pre>
+<pre>0.4420082947556529</pre>
 </div>
 
 </div>
@@ -13658,7 +13658,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[119]:</div>
+<div class="prompt input_prompt">In&nbsp;[147]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Produce a scatter matrix for each pair of features in the data</span>
@@ -13708,7 +13708,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[120]:</div>
+<div class="prompt input_prompt">In&nbsp;[148]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">corr</span><span class="p">());</span>
@@ -13780,7 +13780,7 @@ Looking at the correlation heatmap, it can be observed, that some features corre
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[121]:</div>
+<div class="prompt input_prompt">In&nbsp;[149]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Scale the data using the natural logarithm</span>
@@ -13831,7 +13831,7 @@ Looking at the correlation heatmap, it can be observed, that some features corre
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[122]:</div>
+<div class="prompt input_prompt">In&nbsp;[150]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display the log-transformed sample data</span>
@@ -13937,7 +13937,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[123]:</div>
+<div class="prompt input_prompt">In&nbsp;[151]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># For each feature find the data points with extreme high or low values</span>
@@ -14723,7 +14723,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[124]:</div>
+<div class="prompt input_prompt">In&nbsp;[152]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">outliers_per_feature</span> <span class="o">=</span> <span class="p">[]</span>
@@ -14753,7 +14753,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[124]:</div>
+    <div class="prompt output_prompt">Out[152]:</div>
 
 
 
@@ -14775,7 +14775,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[125]:</div>
+<div class="prompt input_prompt">In&nbsp;[153]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">all_outliers</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
@@ -14794,7 +14794,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[125]:</div>
+    <div class="prompt output_prompt">Out[153]:</div>
 
 
 
@@ -14852,7 +14852,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[126]:</div>
+<div class="prompt input_prompt">In&nbsp;[154]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate common outliers for each pair of features</span>
@@ -14901,7 +14901,7 @@ Detergents_Paper Delicatessen 0
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[126]:</div>
+    <div class="prompt output_prompt">Out[154]:</div>
 
 
 
@@ -14926,7 +14926,7 @@ Detergents_Paper Delicatessen 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[127]:</div>
+<div class="prompt input_prompt">In&nbsp;[155]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># OPTIONAL: Select the indices for data points you wish to remove</span>
@@ -14991,7 +14991,7 @@ Detergents_Paper Delicatessen 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[128]:</div>
+<div class="prompt input_prompt">In&nbsp;[156]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="k">import</span> <span class="n">PCA</span>
@@ -15035,7 +15035,7 @@ Detergents_Paper Delicatessen 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[129]:</div>
+<div class="prompt input_prompt">In&nbsp;[157]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">pca_results</span><span class="p">[</span><span class="s1">&#39;Explained Variance&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">())</span>
@@ -15111,7 +15111,7 @@ Name: Explained Variance, dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[130]:</div>
+<div class="prompt input_prompt">In&nbsp;[158]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display sample log-data after having a PCA transformation applied</span>
@@ -15214,7 +15214,7 @@ Name: Explained Variance, dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[131]:</div>
+<div class="prompt input_prompt">In&nbsp;[159]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Apply PCA by fitting the good data with only two dimensions</span>
@@ -15245,7 +15245,7 @@ Name: Explained Variance, dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[132]:</div>
+<div class="prompt input_prompt">In&nbsp;[160]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display sample log-data after applying PCA transformation in two dimensions</span>
@@ -15327,7 +15327,7 @@ Name: Explained Variance, dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[133]:</div>
+<div class="prompt input_prompt">In&nbsp;[161]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a biplot</span>
@@ -15434,7 +15434,7 @@ Name: Explained Variance, dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[134]:</div>
+<div class="prompt input_prompt">In&nbsp;[162]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Apply your clustering algorithm of choice to the reduced data </span>
@@ -15492,7 +15492,7 @@ Name: Explained Variance, dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[135]:</div>
+<div class="prompt input_prompt">In&nbsp;[163]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Silhouette score determines k=2 to be the optimal number of clusters</span>
@@ -15522,7 +15522,7 @@ Name: Explained Variance, dtype: float64
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[135]:</div>
+    <div class="prompt output_prompt">Out[163]:</div>
 
 
 
@@ -15562,39 +15562,39 @@ Name: Explained Variance, dtype: float64
 <tbody>
 <tr>
 <td style="text-align:right">2</td>
-<td style="text-align:center">0.4100</td>
+<td style="text-align:center">0.4219</td>
 </tr>
 <tr>
 <td style="text-align:right">3</td>
-<td style="text-align:center">0.3931</td>
+<td style="text-align:center">0.4042</td>
 </tr>
 <tr>
 <td style="text-align:right">4</td>
-<td style="text-align:center">0.3060</td>
+<td style="text-align:center">0.2933</td>
 </tr>
 <tr>
 <td style="text-align:right">5</td>
-<td style="text-align:center">0.2191</td>
+<td style="text-align:center">0.3005</td>
 </tr>
 <tr>
 <td style="text-align:right">6</td>
-<td style="text-align:center">0.2901</td>
+<td style="text-align:center">0.3261</td>
 </tr>
 <tr>
 <td style="text-align:right">7</td>
-<td style="text-align:center">0.3122</td>
+<td style="text-align:center">0.3242</td>
 </tr>
 <tr>
 <td style="text-align:right">8</td>
-<td style="text-align:center">0.3356</td>
+<td style="text-align:center">0.2965</td>
 </tr>
 <tr>
 <td style="text-align:right">9</td>
-<td style="text-align:center">0.3180</td>
+<td style="text-align:center">0.3072</td>
 </tr>
 <tr>
 <td style="text-align:right">10</td>
-<td style="text-align:center">0.2849</td>
+<td style="text-align:center">0.3104</td>
 </tr>
 </tbody>
 </table>
@@ -15613,7 +15613,7 @@ Name: Explained Variance, dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[136]:</div>
+<div class="prompt input_prompt">In&nbsp;[164]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display the results of the clustering from implementation</span>
@@ -15662,7 +15662,7 @@ Name: Explained Variance, dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[137]:</div>
+<div class="prompt input_prompt">In&nbsp;[165]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Inverse transform the centers</span>
@@ -15837,8 +15837,8 @@ Dataset Mean &amp; Median:
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
-<p>Segment 0 could represent supermarkets as the spendings are relatively balanced, yet with low spendings ins detergents and delicatessen compared to the dataset average.</p>
-<p>Segment 1 could represent restaurants with high spendings in fresh food, and also detergents (for cleaning the venues) compared to the dataset mean and low spendigs in frozen food (in favour of food which is freshly produced for the customer).</p>
+<p>Segment 0 is likely to represent restaurants having especially high spendings in fresh and frozen food and less in grocery, delicatessen, milk and detergents (compared to median).</p>
+<p>Segment 1 is characterised by high spendings in grocery, milk and detergents on one side and relatively low spendings in fresh, frozen food. Spendings in delicatessen is very close to the median. These characteristics suggest that the customer could be supermarkets.</p>
 
 </div>
 </div>
@@ -15857,7 +15857,7 @@ Dataset Mean &amp; Median:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[138]:</div>
+<div class="prompt input_prompt">In&nbsp;[166]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display the predictions</span>
@@ -15892,10 +15892,11 @@ Sample point 2 predicted to be in Cluster 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[139]:</div>
+<div class="prompt input_prompt">In&nbsp;[169]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">samples</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="n">data</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span><span class="n">data</span><span class="o">.</span><span class="n">median</span><span class="p">()],</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;mean&#39;</span><span class="p">,</span><span class="s1">&#39;median&#39;</span><span class="p">]))</span>
 </pre></div>
 
     </div>
@@ -15974,6 +15975,65 @@ Sample point 2 predicted to be in Cluster 0
 
 </div>
 
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Fresh</th>
+      <th>Milk</th>
+      <th>Grocery</th>
+      <th>Frozen</th>
+      <th>Detergents_Paper</th>
+      <th>Delicatessen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>mean</th>
+      <td>12000.297727</td>
+      <td>5796.265909</td>
+      <td>7951.277273</td>
+      <td>3071.931818</td>
+      <td>2881.493182</td>
+      <td>1524.870455</td>
+    </tr>
+    <tr>
+      <th>median</th>
+      <td>8504.000000</td>
+      <td>3627.000000</td>
+      <td>4755.500000</td>
+      <td>1526.000000</td>
+      <td>816.500000</td>
+      <td>965.500000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -15982,7 +16042,7 @@ Sample point 2 predicted to be in Cluster 0
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
-<p>All three samples are mapped to cluster 1 which presumably represents supermarkets. This makes sense as all three have relatively low spendings in detergents but relatively high spendings in fresh and frozen food as well as in milk and groceries.</p>
+<p>All three samples are mapped to cluster 0 which presumably represents restaurants. This makes sense as all three have relatively high spendings in fresh food, high or average spendings in frozen food and low spendings in detergents. The third customer generally has low spendings which suggests that it is a smaller customer and which makes it harder to interpret the values as they are mostly below average. It has to be noted that it is not easy to manually classify the customers with high confidence. The third customer could as well be a small supermarket based on the spendings.</p>
 
 </div>
 </div>
@@ -16027,6 +16087,7 @@ Sample point 2 predicted to be in Cluster 0
 <p>The hypotheses we are going to test will be formulated as follows for each of the two clusters:</p>
 $$H_0^1: \mu^{S_1}_5 - \mu^{S_1}_3 = 0$$$$H_1^1: \mu^{S_1}_5 - \mu^{S_1}_3 \ne 0$$$$H_0^2: \mu^{S_2}_5 - \mu^{S_2}_3 = 0$$$$H_1^2: \mu^{S_2}_5 - \mu^{S_2}_3 \ne 0$$<p>where $\mu^{S_j}_i$ represents the mean customer satisfaction S for either 5 or 3 deliveries per week for segment j.</p>
 <p>This way we can check, whether there is a change in customer satisfaction after the experiment for each cluster. If there is none, we may switch to three days for each cluster. If there is a change, we will decide for the option that yields the higher satisfaction score.</p>
+<p>We can also compare the means of the different clusters in order to determine, which cluster was affected most by changing delivery intervals.</p>
 <p>Another thing we have to keep in mind is to run the tests long enough due to novelty effects and customers' change aversion when they first experience a change. Customers may be unhappy first but may then change their mind later.</p>
 
 </div>
@@ -16064,7 +16125,7 @@ $$H_0^1: \mu^{S_1}_5 - \mu^{S_1}_3 = 0$$$$H_1^1: \mu^{S_1}_5 - \mu^{S_1}_3 \ne 0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[140]:</div>
+<div class="prompt input_prompt">In&nbsp;[168]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Display the clustering results based on &#39;Channel&#39; data</span>
