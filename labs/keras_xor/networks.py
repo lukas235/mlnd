@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[44]:
-
-
 import numpy as np
 from keras.utils import np_utils
 import tensorflow as tf
@@ -50,10 +47,3 @@ print("\nAccuracy: ", score[-1])
 # Checking the predictions
 print("\nPredictions:")
 print(xor.predict_proba(X))
-
-
-# In[ ]:
-
-
-
-
